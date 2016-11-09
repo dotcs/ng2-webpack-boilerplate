@@ -1,9 +1,8 @@
-/* tslint:disable */
 import { RouterModule, Route } from '@angular/router';
 
 import { MainComponent } from './main.component';
 
-const routes: Route[] = 
+const routes: Route[] =
   [ { path: '', pathMatch: 'full', component: MainComponent }
   // { path: '**', component: PageNotFoundComponent }
 ];

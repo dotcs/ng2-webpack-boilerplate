@@ -1,10 +1,10 @@
-/* tslint:disable */
+/* tslint:disable:no-require-imports */
 import { RouterModule, Route } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { DemoComponent } from './app/demo.component';
 
-const routes: Route[] = 
+const routes: Route[] =
   [ { path: '', pathMatch: 'full', redirectTo: 'demo' }
   , { path: 'demo', component: DemoComponent }
   , { path: 'lazy', loadChildren: () => new Promise(resolve => {
