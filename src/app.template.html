@@ -1,0 +1,13 @@
+﻿<h1>App</h1>
+
+<div id="message">
+  {{ message }}
+</div>
+
+<h2>Menu</h2>
+<ul>
+  <li><a [routerLink]="['/demo']">Demo component</a></li>
+  <li><a [routerLink]="['/lazy']">Lazy loaded component</a></li>
+</ul>
+
+<router-outlet></router-outlet>
